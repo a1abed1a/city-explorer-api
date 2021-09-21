@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/a1abed1a/city-explorer-api#readme",
   "dependencies": {
+    "axios": "^0.21.4",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "env": "^0.0.2",
