@@ -6,8 +6,6 @@ require('dotenv').config()
 const server = express();
 const cors = require('cors');
 server.use(cors());
-const axios = require('axios');
-const data = require('./data/weather.json');
 const PORT = process.env.PORT;
 const weather = require('./modules/weather')
 const movies = require('./modules/movies')
